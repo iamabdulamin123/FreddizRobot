@@ -25,7 +25,7 @@ void loop()                                  // Main loop auto-repeats
 
   // Loop counts with pulseWidth from 1375 to 1625 in increments of 25.
 
-  for(int pulseWidth = 1375; pulseWidth <= 1625; pulseWidth += 25)
+  for(int pulseWidth=1300; pulseWidth <= 1700; pulseWidth += 20)
   {
     Serial.print("pulseWidth = ");           // Display pulseWidth value
     Serial.println(pulseWidth);
