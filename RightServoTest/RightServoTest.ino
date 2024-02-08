@@ -1,5 +1,5 @@
 #include <Servo.h>                           // Include servo library
- 
+
 Servo servoRight;                            // Declare right servo
  
 void setup()                                 // Built in initialization block
