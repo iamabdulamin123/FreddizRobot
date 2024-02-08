@@ -1,17 +1,3 @@
-void setup() {
-  // put your setup code here, to run once:
-
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}/*
- * Robotics with the BOE Shield - RightServoTest
- * Right servo turns clockwise three seconds, stops 1 second, then
- * counterclockwise three seconds.
- */
-
 #include <Servo.h>                           // Include servo library
  
 Servo servoLeft;                            // Declare right servo
